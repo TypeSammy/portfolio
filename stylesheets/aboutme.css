@@ -80,3 +80,29 @@ div.grouped-pattern {
     gap: 2em;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  #intro h1 {
+    font-size: 310%;
+  }
+
+  #pattern-lrg {
+    align-self: center;
+  }
+
+  .bio-container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .bio {
+    margin-right: 0;
+    min-width: 0;
+  }
+
+  div.grouped-pattern {
+    margin-top: 0;
+    display: block;
+    top: 180px;
+  }
+}

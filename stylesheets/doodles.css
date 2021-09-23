@@ -59,3 +59,13 @@ span#pattern-med-reversed {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  #doodles {
+    height: 95em;
+  }
+  
+  .illustrations {
+    grid-template-columns: 1fr;
+  }
+}

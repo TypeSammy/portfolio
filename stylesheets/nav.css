@@ -28,3 +28,12 @@
     height: 5em;
   }
 }
+@media only screen and (max-width: 420px) {
+  #header-nav ul {
+    grid-template-columns: repeat(4, 25%);
+  }
+  #header-nav li {
+    font-size: 0.8em;
+    line-height: 19px;
+  }
+}

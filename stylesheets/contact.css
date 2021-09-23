@@ -25,3 +25,9 @@ i {
     margin-top: 12em;
   }
 }
+
+@media only screen and (max-width: 420px) {
+ #contact h1 {
+  font-size: 480%;
+ }
+}
