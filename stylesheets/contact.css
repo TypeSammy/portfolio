@@ -1,0 +1,27 @@
+#contact {
+  text-align-last: center;
+  margin-bottom: 7em;
+}
+
+.contact-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 18em;
+  margin: 3em auto;
+}
+
+.contact-links p {
+  font-size: 0.7em;
+  margin-top: 0.6em;
+}
+
+i {
+  color: white;
+  font-size: 1.7em;
+}
+
+@media only screen and (max-width: 768px) {
+  #contact {
+    margin-top: 12em;
+  }
+}

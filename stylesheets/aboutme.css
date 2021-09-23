@@ -1,0 +1,82 @@
+#intro {
+  margin-top: 7em;
+}
+
+.about-me {
+  margin-top: 7em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-me p {
+  text-align: right;
+  padding-bottom: 1em;
+  border-bottom: 1px rgb(255 255 255) solid;
+  padding-right: 2em;
+  width: 100%;
+  margin-right: -20px;
+}
+
+.bio-container {
+  margin-top: 2em;
+  display: flex;
+  gap: 7em;
+}
+
+.bio {
+  align-self: center;
+  margin-right: 5em;
+  min-width: 24em;
+  max-width: 46em;
+}
+
+#tech-stack {
+  margin-top: 4em;
+}
+
+#tech-stack p {
+  max-width: 90em;
+  margin: 0 auto;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4em;
+  justify-items: start;
+  max-width: 90em;
+  margin: 1em auto;
+}
+
+div.grouped-pattern {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 17em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#bucket-list {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10em;
+}
+
+#bucket-list p {
+  text-align: right;
+  margin-top: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+  div.grouped-pattern {
+    margin-bottom: 0em;
+  }
+  
+  .bio-container {
+    gap: 2em;
+  }
+}

@@ -1,0 +1,30 @@
+#header-nav {
+  background-color: var(--black);
+  height: 4em;
+}
+
+#header-nav ul {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 5em 9em 6em;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+
+.links {
+  cursor: pointer;
+  justify-self: center;
+  transition: 0.4s;
+}
+
+.links:hover {
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  #header-nav {
+    height: 5em;
+  }
+}

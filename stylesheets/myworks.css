@@ -1,0 +1,112 @@
+#my-works {
+  margin-top: 1em;
+}
+
+#my-works h1 {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  height: 240px;
+  align-items: flex-end;
+}
+
+span#pattern-sml {
+  display: flex;
+  justify-content: flex-end;
+  height: 0.7em;
+  line-height: 1;
+}
+
+.project-1, .project-2, .project-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+  margin-bottom: 1em;
+  height: 34em;
+}
+
+.quiz-watch-img {
+  grid-column-start: 2;
+}
+
+.img-vertical {
+  height: 32em;
+  width: 24em;
+  background-color: rgb(55, 55, 55);
+}
+
+.project-info {
+  align-self: center;
+  margin-bottom: 4em;
+}
+
+.project-info a {
+  font-style: italic;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: 1s;
+}
+
+.type-speed-img {
+  content: url(../assets/portfolio/typing-speed.png);
+  object-fit: cover;
+  opacity: 0.15;
+  transition: 0.4s;
+}
+
+.quiz-watch-img {
+  content: url(../assets/portfolio/quiz-watch.png);
+  object-fit: cover;
+  opacity: 0.15;
+  transition: 0.4s;
+}
+
+.souperb-img {
+  content: url(../assets/portfolio/souperb.png);
+  object-fit: cover;
+  opacity: 0.15;
+  transition: 0.4s;
+}
+
+.type-speed-img:hover, .quiz-watch-img:hover, .souperb-img:hover {
+  opacity: 0.7;
+}
+
+a.more {
+  float: right;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: 1s;
+}
+
+#my-works a:hover {
+  letter-spacing: 1.8px;
+}
+
+@media only screen and (max-width: 768px) {
+  #my-works {
+    margin-top: -7em;
+  }
+  
+  .project-1, .project-2, .project-3 {
+    align-items: center;
+    gap: 1.2em;
+    height: 27em;
+  }
+
+  .img-vertical {
+    height: 20em;
+    width: 15em;
+  }
+
+  .project-info {
+    margin-bottom: 0px;
+    width: 150%;
+  }
+
+  .project-2 {
+    position: relative;
+    left: -110px;
+  }
+}

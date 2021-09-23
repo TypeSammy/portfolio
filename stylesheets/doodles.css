@@ -1,0 +1,61 @@
+#doodles {
+  margin-top: 14em;
+  height: 55em;
+}
+
+.doodles-title {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  gap: 6em;
+}
+
+.doodles-title p {
+  align-self: center;
+  text-align: right;
+  max-width: 16em;
+}
+
+.illustrations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+  margin: 0 auto;
+}
+
+.illustrations img {
+  object-fit: cover;
+  height: 15em;
+  width: 16vw;
+  background-color: rgb(55, 55, 55);
+  justify-self: center;
+  opacity: 0.4;
+  transition: 0.4s;
+}
+
+.illustrations img:hover {
+  opacity: 1;
+}
+
+span#pattern-med-reversed {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: -103px;
+  width: 10%;
+  margin: 0 auto;
+  top: -130px;
+  right: -530px;
+}
+
+@media only screen and (max-width: 768px) {
+  .illustrations {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .illustrations img {
+    height: 22em;
+    width: 100%;
+  }
+}
