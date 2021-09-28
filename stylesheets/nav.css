@@ -13,23 +13,13 @@
   align-items: center;
 }
 
-.links {
+.links, #header-nav a {
   cursor: pointer;
   justify-self: center;
   transition: 0.4s;
 }
 
-#header-nav a {
-  cursor: pointer;
-  justify-self: center;
-  transition: 0.4s;
-}
-
-.links:hover {
-  letter-spacing: 3px;
-}
-
-#header-nav a:hover {
+.links:hover, #header-nav a:hover {
   letter-spacing: 3px;
 }
 
