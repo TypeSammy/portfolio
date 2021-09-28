@@ -13,13 +13,13 @@
   align-items: center;
 }
 
-.links {
+.links, .downlaod-link {
   cursor: pointer;
   justify-self: center;
   transition: 0.4s;
 }
 
-.links:hover {
+.links:hover, .downlaod-link:hover {
   letter-spacing: 3px;
 }
 
