@@ -19,7 +19,7 @@
   transition: 0.4s;
 }
 
-.links:hover, .downlaod-link:hover {
+.links:hover, .downlaod-link a:hover {
   letter-spacing: 3px;
 }
 
