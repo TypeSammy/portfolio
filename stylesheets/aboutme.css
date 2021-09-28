@@ -105,4 +105,9 @@ div.grouped-pattern {
     display: block;
     top: 180px;
   }
+
+  .tech-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
 }

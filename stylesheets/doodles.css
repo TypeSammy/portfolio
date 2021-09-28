@@ -68,4 +68,13 @@ span#pattern-med-reversed {
   .illustrations {
     grid-template-columns: 1fr;
   }
+
+  span#pattern-med-reversed {
+    top: -160px;
+    right: -150px;
+  }
+
+  .illustrations img {
+    opacity: 1;
+  }
 }

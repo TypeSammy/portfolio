@@ -20,6 +20,15 @@ i {
   font-size: 1.7em;
 }
 
+#contact a {
+  font-style: italic;
+  transition: 1s;
+}
+
+#contact a:hover {
+  letter-spacing: 2.5px;
+}
+
 @media only screen and (max-width: 768px) {
   #contact {
     margin-top: 12em;
