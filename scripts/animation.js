@@ -1,4 +1,5 @@
 const toTopBtn = document.querySelector('button')
+const circle = document.querySelector('#cursor-circle')
 
 window.onscroll = function () {
   scrollRotate()
@@ -32,14 +33,15 @@ const moveXAcross = () => {
   smlX.style.left = `-${document.documentElement.scrollTop / 2.5}px`
 }
 
-// window.onscroll = function () {
-//   if (document.documentElement.scrollTop > 900 || document.body.scrollTop > 900) {
-//     console.log('l')
-//   }
-// }
-
 toTopBtn.addEventListener('click', function (event) {
   event.preventDefault()
   document.documentElement.scrollTop = 0
   document.body.scrollTop = 0
 })
+
+// const onMouseMove = (event) => {
+//   circle.style.left = event.pageX - 16 + 'px'
+//   circle.style.top = event.pageY - 16 + 'px'
+// }
+
+// document.addEventListener('mousemove', onMouseMove)

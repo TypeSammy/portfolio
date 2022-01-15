@@ -18,13 +18,18 @@ span#pattern-sml {
   z-index: 1;
 }
 
-.project-1, .project-2, .project-3 {
+.project-1,
+.project-2,
+.project-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4em;
   margin-bottom: 1em;
   height: 34em;
   align-items: center;
+  min-width: 50em;
+  max-width: 100em;
+  margin: 0 auto;
 }
 
 .quiz-watch-img {
@@ -34,6 +39,7 @@ span#pattern-sml {
 .img-vertical {
   /* height: 32em; */
   width: 44vw;
+  max-width: 780px;
   background-color: rgb(55, 55, 55);
 }
 
@@ -52,26 +58,28 @@ span#pattern-sml {
 .type-speed-img {
   content: url(../assets/portfolio/typingspeed-mockup.jpeg);
   object-fit: cover;
-  opacity: 0.50;
+  opacity: 0.5;
   transition: 0.4s;
 }
 
 .quiz-watch-img {
   content: url(../assets/portfolio/quizwatch-mockup.jpeg);
   object-fit: cover;
-  opacity: 0.50;
+  opacity: 0.5;
   transition: 0.4s;
 }
 
 .souperb-img {
   content: url(../assets/portfolio/souperb-mockup.jpeg);
   object-fit: cover;
-  opacity: 0.50;
+  opacity: 0.5;
   transition: 0.4s;
 }
 
-.type-speed-img:hover, .quiz-watch-img:hover, .souperb-img:hover {
-  opacity: 0.90;
+.type-speed-img:hover,
+.quiz-watch-img:hover,
+.souperb-img:hover {
+  opacity: 0.9;
 }
 
 a.more {
@@ -90,11 +98,14 @@ a.more {
   #my-works {
     margin-top: -7em;
   }
-  
-  .project-1, .project-2, .project-3 {
+
+  .project-1,
+  .project-2,
+  .project-3 {
     align-items: center;
     gap: 1.2em;
     height: 27em;
+    max-width: 500px;
   }
 
   .img-vertical {
@@ -120,14 +131,16 @@ a.more {
     bottom: -19.5em;
   }
 
-  .project-1, .project-2, .project-3 {
+  .project-1,
+  .project-2,
+  .project-3 {
     display: flex;
     flex-direction: column;
     margin-bottom: 7em;
     gap: 30px;
     height: 100%;
   }
-  
+
   .project-info {
     width: 90%;
   }
