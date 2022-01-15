@@ -71,17 +71,17 @@ div.grouped-pattern {
   margin-top: 4em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   div.grouped-pattern {
     margin-bottom: 0em;
   }
-  
+
   .bio-container {
     gap: 2em;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 620px) {
   #intro h1 {
     font-size: 420%;
   }

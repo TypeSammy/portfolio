@@ -27,7 +27,7 @@ span#pattern-sml {
   margin-bottom: 1em;
   height: 34em;
   align-items: center;
-  min-width: 50em;
+  /* min-width: 50em; */
   max-width: 100em;
   margin: 0 auto;
 }
@@ -94,7 +94,7 @@ a.more {
   letter-spacing: 1.8px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   #my-works {
     margin-top: -7em;
   }
@@ -106,6 +106,7 @@ a.more {
     gap: 1.2em;
     height: 27em;
     max-width: 500px;
+    min-width: 0em;
   }
 
   .img-vertical {
@@ -115,12 +116,12 @@ a.more {
 
   .project-info {
     margin-bottom: 0px;
-    width: 150%;
+    width: 90%;
   }
 
   .project-2 {
     position: relative;
-    left: -110px;
+    left: 0px;
   }
 }
 
@@ -143,6 +144,7 @@ a.more {
 
   .project-info {
     width: 90%;
+    font-size: 80%;
   }
 
   .project-2 {
